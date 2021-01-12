@@ -1,8 +1,8 @@
-# React Portfolio
+# Brianna Hebeler React Portfolio
 ![MIT](https://img.shields.io/badge/license-MIT-blueviolet)
 
 ## Description 
-add description here
+* In this project my goal was to create a responsive portfolio using react. This portfolio contains three web-pages: an about me page, a portfolio page, and a contact page. The navbar is consistent on all pages including working links to the other pages. On all the pages you will find semantic html tags, working links, reactstrap grid system, sticky footer, and personalized information.
 
 ## Table of Contents  
 * [License](#license)
