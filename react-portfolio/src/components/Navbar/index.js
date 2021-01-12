@@ -9,6 +9,7 @@ import {
     NavLink
 } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./style.css"
 
 const Navi = (props) => {
     const [isOpen, setIsOpen] = useState(false);

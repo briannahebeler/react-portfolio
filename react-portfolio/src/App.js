@@ -1,9 +1,9 @@
 import React from "react";
-import Navi from "./components/Navbar"
+import Body from "./components/Body"
 
 function App() {
   return (
-    <Navi />
+    <Body />
   );
 }
 
