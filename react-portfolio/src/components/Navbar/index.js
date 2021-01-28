@@ -8,6 +8,7 @@ import {
     NavItem,
     NavLink
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css"
 
@@ -24,13 +25,28 @@ const Navi = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="../../Contact/">Contact</NavLink>
+                            <NavLink>
+                            <Link 
+                            to="/contact">
+                                Contact
+                                </Link>
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="../../Portfolio/">Portfolio</NavLink>
+                            <NavLink>
+                            <Link 
+                            to="/portfolio">
+                                Portfolio
+                                </Link>
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="../../About/">About</NavLink>
+                            <NavLink>
+                            <Link 
+                            to="/about">
+                                About
+                                </Link>
+                            </NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
